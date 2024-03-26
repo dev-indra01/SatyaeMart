@@ -265,7 +265,7 @@
 		margin: 0 25px 0 0;
 		position: absolute;
 		right: 0;
-		top: -67px;
+		top: -55px;
 	}
 	.search_icon ul li {
 		float: left;
@@ -656,7 +656,8 @@
 		width: 100%;
 	}
 	.logo img {
-		width: 170px;
+		width: 200px;
+		margin-top: -10px;
 	}
 	/**== search bar ==**/
 	#search_bar .search-global__input {
@@ -774,7 +775,7 @@
 }
 
 #navbar_menu.small-screen #menu-button {
-    top: -71px;
+    top: -62px;
 }
 
 #search_bar .search-global {
