@@ -55,4 +55,4 @@ $(window).scroll(function(){
 setTimeout(function(){
     document.getElementById('default_theme').style.display = 'block';
     document.querySelector('.preloader').style.display = 'none';
-  }, 500); // Adjust the time as needed
+  }, 300); // Adjust the time as needed
