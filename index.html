@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="css/style.css" />
   <!-- responsive css -->
   <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/animate.css">
   <style>
     /* Custom Styles */
     .hero-section {
@@ -86,7 +87,24 @@
       }
     }
   </style>
-
+  <style>
+    .iframe-container{
+    position: relative;
+    width: 100%;
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+  </style>
 </head>
 
 <body id="default_theme" class="it_service">
@@ -194,18 +212,18 @@
         <!-- Left Column: Caption and CTA Button -->
         <div class="col-md-6">
           <div class="hero-caption">
-            <h3 style="color: cornflowerblue;">Sale & Services :</h3>
+            <h3 style="color: cornflowerblue;" class="wow slideInLeft">Sale & Services :</h3>
             <!-- <h4 class="theme_color"></h4> -->
-            <p class="large" style="line-height: 2;">Computer, Laptops, Moniter, Printers, Scanner, CCTV, Home Automation, Spare parts,
+            <p class="large wow wow fadeInUp" style="line-height: 2;">Computer, Laptops, Moniter, Printers, Scanner, CCTV, Home Automation, Spare parts,
               IT Services and many
               more.</hp>
-            <p><a class="btn main_bt" href="tel:+917879882869">Call us now</a></p>
+            <p><a class="btn main_bt wow fadeIn" href="tel:+917879882869">Call us now</a></p>
           </div>
         </div>
 
         <!-- Right Column: Vector Image -->
         <div class="col-md-6">
-          <img src="images/sem/hero.png" alt="Satya e-Mart" class="vector-image">
+          <img src="images/sem/hero.png" alt="Satya e-Mart" class="vector-image wow slideInRight">
         </div>
       </div>
     </div>
@@ -221,16 +239,16 @@
         <div class="col-md-12">
           <div class="full">
             <div class="main_heading text_align_center">
-              <h2>Why Choose Us</h2>
-              <p class="large">Fastest service with best price!</p>
-              <p class="large">हमारे यहाँ आप पायेंगे...</p>
+              <h2 class="wow slideInRight">Why Choose Us</h2>
+              <p class="large wow fadeInUp">Fastest service with best price!</p>
+              <p class="large wow fadeInUp">हमारे यहाँ आप पायेंगे...</p>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-          <div class="full text_align_center margin_bottom_30">
+          <div class="full text_align_center margin_bottom_30 wow fadeInUp" data-wow-delay=".2s">
             <div class="center">
               <div class="icon"> <img src="images/sem/i1.png" alt="#" /> </div>
             </div>
@@ -239,7 +257,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-          <div class="full text_align_center margin_bottom_30">
+          <div class="full text_align_center margin_bottom_30 wow fadeInUp" data-wow-delay=".3s">
             <div class="center">
               <div class="icon"> <img src="images/sem/i2.png" alt="#" /> </div>
             </div>
@@ -248,7 +266,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-          <div class="full text_align_center margin_bottom_30">
+          <div class="full text_align_center margin_bottom_30 wow fadeInUp" data-wow-delay=".4s">
             <div class="center">
               <div class="icon"> <img src="images/sem/i3.png" alt="#" /> </div>
             </div>
@@ -257,7 +275,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-          <div class="full text_align_center margin_bottom_30 margin_0">
+          <div class="full text_align_center margin_bottom_30 margin_0 wow fadeInUp" data-wow-delay=".5s">
             <div class="center">
               <div class="icon"> <img src="images/sem/i4.png" alt="#" /> </div>
             </div>
@@ -272,7 +290,7 @@
             <div class="accordion border_circle">
               <div class="bs-example">
                 <div class="panel-group" id="accordion">
-                  <div class="panel panel-default">
+                  <div class="panel panel-default wow fadeInLeft" data-wow-delay=".2s">
                     <div class="panel-heading">
                       <p class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><i
                             class="fa fa-bar-chart" aria-hidden="true"></i> Expertise: <i
@@ -289,7 +307,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="panel panel-default">
+                  <div class="panel panel-default wow fadeInLeft" data-wow-delay=".3s">
                     <div class="panel-heading">
                       <p class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><i
                             class="fa fa-star"></i> Quality Assurance:<i class="fa fa-angle-down"></i></a> </p>
@@ -305,7 +323,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="panel panel-default">
+                  <div class="panel panel-default wow fadeInLeft" data-wow-delay=".4s">
                     <div class="panel-heading">
                       <p class="panel-title"> <a data-toggle="collapse" data-parent="#accordion"
                           href="#collapseThree"><i class="fa fa-desktop"></i> Customer-Centric Approach: <i
@@ -322,7 +340,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="panel panel-default">
+                  <div class="panel panel-default wow fadeInLeft" data-wow-delay=".5s">
                     <div class="panel-heading">
                       <p class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><i
                             class="fa fa-envelope" aria-hidden="true"></i> Community Engagement: <i
@@ -355,7 +373,7 @@
             <p>हमारा मिशन आपको तकनीकी समाधान प्रदान करना है। जो दक्षता, कनेक्टिविटी और नवाचार को बढ़ाते हैं। हम मूल्यवान
               सेवाएँ प्रदान करने के लिए प्रतिबद्ध हैं। जो हमारे ग्राहकों की ज़रूरतों से बढ़कर हैं और उभरते डिजिटल युग में
               उनकी सफलता में योगदान देती है।</p>
-            <p><a class="btn main_bt" href="https://wa.me/+918109291088" target="_blank">Contact Us</a></p>
+            <p><a class="btn main_bt wow fadeInUp" href="https://wa.me/+918109291088" target="_blank">Contact Us</a></p>
           </div>
         </div>
       </div>
@@ -367,7 +385,7 @@
   <div class="section padding_layout_1 light_silver service_list">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 service_blog">
+        <div class="col-md-4 service_blog wow fadeInDown">
           <div class="full">
             <div class="service_img"> <img class="img-responsive" src="images/sem/post-01.jpg" alt="#" /> </div>
             <div class="service_cont">
@@ -376,7 +394,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 service_blog">
+        <div class="col-md-4 service_blog wow fadeInUp">
           <div class="full">
             <div class="service_img"> <img class="img-responsive" src="images/sem/post-02.jpg" alt="#" /> </div>
             <div class="service_cont">
@@ -385,7 +403,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 service_blog">
+        <div class="col-md-4 service_blog wow fadeInDown">
           <div class="full">
             <div class="service_img"> <img class="img-responsive" src="images/sem/post-03.jpg" alt="#" /> </div>
             <div class="service_cont">
@@ -405,8 +423,8 @@
         <div class="col-md-12">
           <div class="full">
             <div class="main_heading text_align_left">
-              <h2>Service Process</h2>
-              <p class="large">Easy and effective way to get your device repaired.</p>
+              <h2 class="wow slideInLeft">Service Process</h2>
+              <p class="large wow slideInRight">Easy and effective way to get your device repaired.</p>
             </div>
           </div>
         </div>
@@ -414,7 +432,7 @@
       <div class="row">
         <div class="col-md-8">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay=".2s" >
               <div class="full">
                 <div class="service_blog_inner">
                   <div class="icon text_align_left"><img src="images/sem/si1.png" alt="#" /></div>
@@ -423,7 +441,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay=".3s">
               <div class="full">
                 <div class="service_blog_inner">
                   <div class="icon text_align_left"><img src="images/sem/si2.png" alt="#" /></div>
@@ -432,7 +450,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay=".4s">
               <div class="full">
                 <div class="service_blog_inner">
                   <div class="icon text_align_left"><img src="images/sem/si3.png" alt="#" /></div>
@@ -441,7 +459,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay=".5s">
               <div class="full">
                 <div class="service_blog_inner">
                   <div class="icon text_align_left"><img src="images/sem/si4.png" alt="#" /></div>
@@ -450,7 +468,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay=".6s">
               <div class="full">
                 <div class="service_blog_inner">
                   <div class="icon text_align_left"><img src="images/sem/si5.png" alt="#" /></div>
@@ -459,7 +477,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay=".7s">
               <div class="full">
                 <div class="service_blog_inner">
                   <div class="icon text_align_left"><img src="images/sem/si6.png" alt="#" /></div>
@@ -481,7 +499,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="full">
-            <div class="main_heading text_align_center">
+            <div class="main_heading text_align_center wow pulse">
               <h2>Our Products</h2>
               <p class="large">We package the products with best services to make you a happy customer.</p>
             </div>
@@ -489,7 +507,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all wow fadeIn" data-wow-delay=".2s">
           <div class="product_list">
             <div class="product_img"> <img class="img-responsive" src="images/sem/1.jpg" alt=""> </div>
             <div class="product_detail_btm">
@@ -506,7 +524,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all wow fadeIn" data-wow-delay=".3s">
           <div class="product_list">
             <div class="product_img"> <img class="img-responsive" src="images/sem/2.jpg" alt=""> </div>
             <div class="product_detail_btm">
@@ -523,7 +541,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all wow fadeIn" data-wow-delay=".4s">
           <div class="product_list">
             <div class="product_img"> <img class="img-responsive" src="images/sem/3.jpg" alt=""> </div>
             <div class="product_detail_btm">
@@ -540,7 +558,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all wow fadeIn" data-wow-delay=".5s">
           <div class="product_list">
             <div class="product_img"> <img class="img-responsive" src="images/sem/4.jpg" alt=""> </div>
             <div class="product_detail_btm">
@@ -557,7 +575,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all wow fadeIn" data-wow-delay=".6s">
           <div class="product_list">
             <div class="product_img"> <img class="img-responsive" src="images/sem/5.jpg" alt=""> </div>
             <div class="product_detail_btm">
@@ -574,7 +592,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all wow fadeIn" data-wow-delay=".7s">
           <div class="product_list">
             <div class="product_img"> <img class="img-responsive" src="images/sem/6.jpg" alt=""> </div>
             <div class="product_detail_btm">
@@ -591,7 +609,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all wow fadeIn" data-wow-delay=".8s">
           <div class="product_list">
             <div class="product_img"> <img class="img-responsive" src="images/sem/7.jpg" alt=""> </div>
             <div class="product_detail_btm">
@@ -608,7 +626,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all wow fadeIn" data-wow-delay=".9s">
           <div class="product_list">
             <div class="product_img"> <img class="img-responsive" src="images/sem/8.jpg" alt=""> </div>
             <div class="product_detail_btm">
@@ -636,8 +654,8 @@
         <div class="col-md-12">
           <div class="full">
             <div class="main_heading text_align_right">
-              <h2>Our Feedback</h2>
-              <p class="large">Easy and effective way to get your device repaired.</p>
+              <h2 class="wow slideInRight">Our Feedback</h2>
+              <p class="large wow fadeInUp">Easy and effective way to get your device repaired.</p>
             </div>
           </div>
         </div>
@@ -689,11 +707,11 @@
         <div class="col-md-12">
           <div class="full">
             <ul class="brand_list">
-              <li><img src="images/sem/brand_icon1.png" alt="#" height="40" /></li>
-              <li><img src="images/sem/brand_icon2.png" alt="#" height="40" /></li>
-              <li><img src="images/sem/brand_icon3.png" alt="#" height="40" /></li>
-              <li><img src="images/sem/brand_icon4.png" alt="#" height="40" /></li>
-              <li><img src="images/sem/brand_icon5.png" alt="#" height="40" /></li>
+              <li class="wow fadeInUp" data-wow-delay=".2s"><img src="images/sem/brand_icon1.png" alt="#" height="40" /></li>
+              <li class="wow fadeInUp" data-wow-delay=".3s"><img src="images/sem/brand_icon2.png" alt="#" height="40" /></li>
+              <li class="wow fadeInUp" data-wow-delay=".4s"><img src="images/sem/brand_icon3.png" alt="#" height="40" /></li>
+              <li class="wow fadeInUp" data-wow-delay=".5s"><img src="images/sem/brand_icon4.png" alt="#" height="40" /></li>
+              <li class="wow fadeInUp" data-wow-delay=".6s"><img src="images/sem/brand_icon5.png" alt="#" height="40" /></li>
             </ul>
           </div>
         </div>
@@ -731,42 +749,24 @@
 
   <!-- footer -->
   <footer class="footer_style_2">
-    <div class="container-fuild">
-      <div class="row">
-        <div class="map_section mt-4">
-          <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1554.6162019912374!2d81.68906634625168!3d22.06790007941823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2837a1cf64160d%3A0x39a606e4b49e8739!2sSatya%20e-Mart!5e0!3m2!1sen!2sin!4v1711469855283!5m2!1sen!2sin" 
-          width="600" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="footer_blog">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="main-heading left_text">
+    <div class="container-fuild" style="padding-bottom: 10%;">
+        <div class="row">
+          <!-- Map column -->
+          <div class="col-md-6 mb-3 mb-md-0">
+            <div class="iframe-container">
+              <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1554.6162019912374!2d81.68906634625168!3d22.06790007941823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2837a1cf64160d%3A0x39a606e4b49e8739!2sSatya%20e-Mart!5e0!3m2!1sen!2sin!4v1711469855283!5m2!1sen!2sin" 
+              width="550" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <!-- Contact column -->
+          <div class="col">
+              <div>
                 <a href=""><img src="images/sem/sem.jpg" alt="logo" /></a>
                 <h2>Satya e-Mart</h2>
               </div>
               <p>कम्प्यूटर, लैपटाॅप, टैबलेट, माॅनिटर, प्रिंटर, स्कैनर, CCTV, होम आटोमेशन, एसेसरीज & पार्ट्स, सेल्स &
                 रिपेयरिंग, कार्टरिज, डाटा रिकवरी, CSC & ऑनलाईन सर्विसेस, साॅफ्टवेयर, डिजिटल मार्केटिंग & एडवर्टाईजमेंट.
               </p>
-              <ul class="social_icons">
-                <li class="social-icon fb"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li class="social-icon tw"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li class="social-icon gp"><a href="https://www.google.com/search?q=satya+e+mart"><i
-                      class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-              </ul>
-            </div>
-            <div class="col-md-6">
-              <div class="main-heading left_text">
-                <h2>Additional links</h2>
-              </div>
-              <ul class="footer-menu">
-                <li><a href="#hero"><i class="fa fa-angle-right"></i> Home</a></li>
-                <li><a href="#why"><i class="fa fa-angle-right"></i> Why us</a></li>
-                <li><a href="#service"><i class="fa fa-angle-right"></i> Service Process</a></li>
-                <li><a href="#products"><i class="fa fa-angle-right"></i> Products</a></li>
-                <li><a href="#feedback"><i class="fa fa-angle-right"></i> Our Feedback</a></li>
-              </ul>
-            </div>
-            <div class="col-md-6">
               <div class="main-heading left_text">
                 <h2>Partner firms</h2>
               </div>
@@ -776,8 +776,10 @@
                 <li><a href="https://www.powershellent.in/"><i class="fa fa-angle-right"></i> PowerShell Enterprise,
                     Mungeli</a></li>
               </ul>
-            </div>
-            <div class="col-md-6">
+          </div>
+          <!-- Additional links column -->
+          <div class="col">
+            <div>
               <div class="main-heading left_text">
                 <h2>Contact us</h2>
               </div>
@@ -790,8 +792,22 @@
                 <a href="mailto:satya.e.mart@gmail.com">satya.e.mart@gmail.com</a>
               </p>
             </div>
+            <div>
+              <div >
+              <h2>Additional links</h2>
+            </div>
+            <ul class="footer-menu">
+              <li><a href="#hero"><i class="fa fa-angle-right"></i> Home</a></li>
+              <li><a href="#why"><i class="fa fa-angle-right"></i> Why us</a></li>
+              <li><a href="#service"><i class="fa fa-angle-right"></i> Service Process</a></li>
+              <li><a href="#products"><i class="fa fa-angle-right"></i> Products</a></li>
+              <li><a href="#feedback"><i class="fa fa-angle-right"></i> Our Feedback</a></li>
+            </ul>
+            </div>
           </div>
-        </div>
+      </div>
+
+      <div class="row">
         <div class="cprt">
           <p>@2024 | All rights reserved. | Design & Developed by <a href="https://www.powershellent.in/">PowerShell Enterprise</a></p>
         </div>
@@ -814,6 +830,10 @@
   <script src="js/menumaker.js"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 
 </body>
 
